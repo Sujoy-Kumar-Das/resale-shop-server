@@ -16,5 +16,7 @@ const dbConnect = async () => {
     console.log(error);
   }
 };
+// collections
+const productsCatagoryCollection =  client.db("resale-shop").collection("products-catagory");
 
-module.exports={dbConnect}
+module.exports={dbConnect,productsCatagoryCollection}
