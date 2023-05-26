@@ -1,5 +1,7 @@
 const testControler = (req, res) => {
-    res.send({ message: "server is running" });
-  }
+  res.send({ message: "server is running" });
+};
 
-  module.exports=testControler
+module.exports = testControler;
+
+;
