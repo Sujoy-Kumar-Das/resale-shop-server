@@ -21,5 +21,6 @@ const productsCatagoryCollection = client
   .db("resale-shop")
   .collection("products-catagory");
 const aboutCollection = client.db("resale-shop").collection("about");
+const allProductsColection = client.db("resale-shop").collection("all-products");
 
-module.exports = { dbConnect, productsCatagoryCollection, aboutCollection };
+module.exports = { dbConnect, productsCatagoryCollection, aboutCollection,allProductsColection };

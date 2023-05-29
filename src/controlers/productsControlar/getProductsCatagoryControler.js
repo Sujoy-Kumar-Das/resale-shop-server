@@ -1,8 +1,8 @@
 const {
-    productsCatagoryCollection,
-  } = require("../models/dataBase/DBConnect");
-  
-const getProductControler = async (req, res) => {
+  productsCatagoryCollection,
+} = require("../../models/dataBase/DBConnect");
+
+const getProductCatagoryControler = async (req, res) => {
   try {
     const query = {};
     const limitStr = req.query.view;
@@ -29,4 +29,4 @@ const getProductControler = async (req, res) => {
     console.log(error);
   }
 };
-module.exports = getProductControler;
+module.exports = getProductCatagoryControler;

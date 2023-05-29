@@ -4,4 +4,5 @@ const testControler = (req, res) => {
 
 module.exports = testControler;
 
-;
+
+
