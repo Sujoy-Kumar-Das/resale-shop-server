@@ -3,6 +3,7 @@ const app = express();
 const cors = require("cors")
 require("dotenv").config();
 app.use(cors())
+app.use(express.json());
 const port = process.env.PORT || 5000;
 
 // database connect
@@ -16,6 +17,10 @@ const getProductCatagory = require("./src/routers/productsRoute/getProductCatago
 const getAllProducts = require("./src/routers/productsRoute/allProducts");
 // get single product detail 
 const productDetail = require("./src/routers/productsRoute/productDetail")
+// store user
+const storeUser = require("./src/routers/storeUser/StoreUser")
+// get user
+const user = require("./src/routers/getUserRouter/getUserRouter")
 // about api
 const about = require("./src/routers/about/about")
 
@@ -26,7 +31,8 @@ app.use(getProductCatagory);
 app.use(getAllProducts)
 app.use(productDetail)
 app.use(about)
-
+app.use(storeUser)
+app.use(user)
 
 
 app.listen(port, () => {
