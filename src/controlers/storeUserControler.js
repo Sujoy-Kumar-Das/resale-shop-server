@@ -4,16 +4,17 @@ const storeUserControler = async (req, res) => {
   try {
     const userInfo = req.body;
     const email = req.query.email;
-    const query = { email: email };
-    const user = await usersCollectons.findOne(query);
-    if (!user?.email) {
-      const result = await usersCollectons.insertOne(userInfo);
-      if (result.acknowledged) {
-        res.send({
-          success: true,
-          message: "user created successfully",
-        });
-      }
+    const filter = { email: email };
+    const options = { upsert: true };
+    const updateDoc = {
+      $set: userInfo,
+    };
+    const result = await usersCollectons.updateOne(filter, updateDoc, options);
+    if (result.acknowledged || result.modifiedCount) {
+      res.send({
+        success: true,
+        result,
+      });
     } else {
       res.send({
         success: false,

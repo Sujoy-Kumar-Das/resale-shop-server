@@ -1,0 +1,903 @@
+ [
+    {
+      "catagory_Id":"646da86c90217363302bd341",
+      "BrandName": "Apple",
+      "model": "MacBook Pro",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRgNBh0LM0It6Hevf4Dw-YHPFVHsx6-XzT9g&usqp=CAU",
+      "condition": "Excellent",
+      "original_price": 2000,
+      "resale_price": 1200,
+      "buying_year": 2019,
+      "description": "Selling this laptop as I upgraded to a newer model.",
+      "seller": {
+        "name": "John Doe",
+        "phone": "123-456-7890",
+        "email": "john@gmail.com",
+        "address": "123 Main Street",
+        "image": "https://westernfinance.org/wp-content/uploads/speaker-3-v2.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "13.3-inch Retina",
+        "Graphics": "Intel Iris Plus Graphics 655"
+      }
+    },
+    {
+        "catagory_Id":"646da86c90217363302bd341",
+        "BrandName": "Apple",
+      "model": "MacBook Air",
+      "image": "https://media.karousell.com/media/photos/products/2020/11/11/macbook_air_13_2017__used_2_mo_1605079051_a17c171a_progressive",
+      "condition": "Good",
+      "original_price": 1200,
+      "resale_price": 800,
+      "buying_year": 2020,
+      "description": "Selling this laptop because I switched to a Windows device for work purposes.",
+      "seller": {
+        "name": "Jane Smith",
+        "phone": "987-654-3210",
+        "email": "jane@gmail.com",
+        "address": "456 Elm Street",
+        "image": "https://assets.mycast.io/characters/jane-smith-6498555-normal.jpg?1651316767"
+      },
+      "specification": {
+        "Processor": "Apple M1 chip",
+        "RAM": "8GB",
+        "Storage": "256GB SSD",
+        "Display": "13.3-inch Retina",
+        "Graphics": "Apple M1 7-core GPU"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd341",
+      "BrandName": "Apple",
+      "model": "MacBook Pro",
+      "image": "https://tekshanghai.com/wp-content/uploads/2022/10/Used-Macbook-pro-M1-8G-512G-space-gray2020_5.jpg",
+      "condition": "Excellent",
+      "original_price": 1800,
+      "resale_price": 1000,
+      "buying_year": 2020,
+      "description": "Selling this laptop as I no longer need it for my studies.",
+      "seller": {
+        "name": "Alex Johnson",
+        "phone": "555-123-4567",
+        "email": "alex@gmail.com",
+        "address": "789 Oak Avenue",
+        "image": "https://adivinesport.files.wordpress.com/2022/10/alex_johnson-headshot.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i5",
+        "RAM": "8GB",
+        "Storage": "256GB SSD",
+        "Display": "13.3-inch Retina",
+        "Graphics": "Intel Iris Plus Graphics 645"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd341",
+      "BrandName": "Apple",
+      "model": "MacBook Air",
+      "image": "https://onebitetechnology.ca/wp-content/uploads/2022/04/161566083936224766.jpg",
+      "condition": "Good",
+      "original_price": 1400,
+      "resale_price": 900,
+      "buying_year": 2018,
+      "description": "Selling this laptop because I upgraded to a gaming laptop.",
+      "seller": {
+        "name": "Sarah Brown",
+        "phone": "444-567-8901",
+        "email": "sarah@gmail.com",
+        "address": "321 Pine Street",
+        "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2012/01/03/09/sarah-brown-415.jpg?width=968&auto=webp&quality=50&crop=968%3a645%2csmart"
+      },
+      "specification": {
+        "Processor": "Intel Core i5",
+        "RAM": "8GB",
+        "Storage": "128GB SSD",
+        "Display": "13.3-inch Retina",
+        "Graphics": "Intel UHD Graphics 617"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd341",
+      "BrandName": "Apple",
+      "model": "MacBook Pro",
+      "image": "https://i.ebayimg.com/images/g/MqwAAOSwkUVj-ISB/s-l1600.jpg",
+      "condition": "Good",
+      "original_price": 2200,
+      "resale_price": 1500,
+      "buying_year": 2017,
+      "description": "Selling this laptop to upgrade to the latest MacBook Pro model.",
+      "seller": {
+        "name": "Mike Thompson",
+        "phone": "222-333-4444",
+        "email": "mike@gmail.com",
+        "address": "567 Cedar Lane",
+        "image": "https://media.licdn.com/dms/image/D4E03AQHAMIBsNHJSBA/profile-displayphoto-shrink_800_800/0/1672964389091?e=2147483647&v=beta&t=6Td8TynlmU9lmOdQputGBH3MytdadRsrV1VSRLdhCZ4"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "1TB SSD",
+        "Display": "15.4-inch Retina",
+        "Graphics": "Radeon Pro 560X with 4GB of GDDR5 memory"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd341",
+        "BrandName": "Apple",
+      "model": "MacBook Air",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkPCiOXfGSoFj-SYYF4euVtonlntdkXvZ1A&usqp=CAU",
+      "condition": "Excellent",
+      "original_price": 1000,
+      "resale_price": 600,
+      "buying_year": 2016,
+      "description": "Selling this laptop as I bought a desktop PC for my design work.",
+      "seller": {
+        "name": "Emily Wilson",
+        "phone": "999-888-7777",
+        "email": "emily@gmail.com",
+        "address": "789 Maple Drive",
+        "image": "https://www.themoviedb.org/t/p/w500/r1ZppIE70O1ulukKSCoVaZaxWOW.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i5",
+        "RAM": "8GB",
+        "Storage": "256GB SSD",
+        "Display": "13.3-inch Retina",
+        "Graphics": "Intel HD Graphics 6000"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd342",
+      "BrandName": "Dell",
+      "model": "XPS 13",
+      "image": "https://s.yimg.com/uu/api/res/1.2/H_rg.Y5F_FqCvUH5QS3LBw--~B/aD0xMjI1O3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-01/f2b36930-6d78-11ec-9bff-751fab2ef4f2.cf.jpg",
+      "condition": "Excellent",
+      "original_price": 1500,
+      "resale_price": 1100,
+      "buying_year": 2019,
+      "description": "Selling this laptop as I upgraded to a more powerful workstation.",
+      "seller": {
+        "name": "John Doe",
+        "phone": "123-456-7890",
+        "email": "john@gmail.com",
+        "address": "123 Main Street",
+        "image": "https://westernfinance.org/wp-content/uploads/speaker-3-v2.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "13.3-inch Full HD",
+        "Graphics": "Intel UHD Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd342",
+      "BrandName": "Dell",
+      "model": "Inspiron 15",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6403/6403450_sd.jpg",
+      "condition": "Good",
+      "original_price": 800,
+      "resale_price": 500,
+      "buying_year": 2020,
+      "description": "Selling this laptop as I received a new one as a gift.",
+      "seller": {
+        "name": "Jane Smith",
+        "phone": "987-654-3210",
+        "email": "jane@gmail.com",
+        "address": "456 Elm Street",
+        "image": "https://assets.mycast.io/characters/jane-smith-6498555-normal.jpg?1651316767"
+      },
+      "specification": {
+        "Processor": "Intel Core i5",
+        "RAM": "8GB",
+        "Storage": "256GB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "Intel UHD Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd342",
+      "BrandName": "Dell",
+      "model": "Latitude 14",
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/main/dell-latitude-14-3410-intel-core-i3-10110u-14-11619928116.webp",
+      "condition": "Good",
+      "original_price": 1200,
+      "resale_price": 900,
+      "buying_year": 2020,
+      "description": "Selling this laptop as I no longer need it for my business.",
+      "seller": {
+        "name": "Alex Johnson",
+        "phone": "555-123-4567",
+        "email": "alex@gmail.com",
+        "address": "789 Oak Avenue",
+        "image": "https://adivinesport.files.wordpress.com/2022/10/alex_johnson-headshot.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "14-inch Full HD",
+        "Graphics": "Intel UHD Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd342",
+      "BrandName": "Dell",
+      "model": "XPS 15",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0GcCPb-06FPdzrL893rH_jn2of-Ues05KCQ&usqp=CAU",
+      "condition": "Good",
+      "original_price": 1800,
+      "resale_price": 1300,
+      "buying_year": 2018,
+      "description": "Selling this laptop as I upgraded to a gaming laptop.",
+      "seller": {
+        "name": "Sarah Brown",
+        "phone": "444-567-8901",
+        "email": "sarah@gmail.com",
+        "address": "321 Pine Street",
+        "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2012/01/03/09/sarah-brown-415.jpg?width=968&auto=webp&quality=50&crop=968%3a645%2csmart"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "1TB SSD",
+        "Display": "15.6-inch 4K Ultra HD",
+        "Graphics": "NVIDIA GeForce GTX 1650 Ti"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd342",
+      "BrandName": "Dell",
+      "model": "Inspiron 13",
+      "image": "https://bfixtech.ng/wp-content/uploads/2021/04/UK-Used-Dell-Inspiron-13-5378-Laptop-02.jpg",
+      "condition": "Excellent",
+      "original_price": 1000,
+      "resale_price": 700,
+      "buying_year": 2017,
+      "description": "Selling this laptop to upgrade to a newer model.",
+      "seller": {
+        "name": "Mike Thompson",
+        "phone": "222-333-4444",
+        "email": "mike@gmail.com",
+        "address": "567 Cedar Lane",
+        "image": "https://media.licdn.com/dms/image/D4E03AQHAMIBsNHJSBA/profile-displayphoto-shrink_800_800/0/1672964389091?e=2147483647&v=beta&t=6Td8TynlmU9lmOdQputGBH3MytdadRsrV1VSRLdhCZ4"
+      },
+      "specification": {
+        "Processor": "Intel Core i5",
+        "RAM": "8GB",
+        "Storage": "256GB SSD",
+        "Display": "13.3-inch Full HD",
+        "Graphics": "Intel UHD Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd342",
+      "BrandName": "Dell",
+      "model": "Precision 15",
+      "image": "https://cdn.shopify.com/s/files/1/0646/0853/4745/products/USED-DELL-Precision-15-50005510-i7-6820HQ-4G-NA-500G-M1000M-2G-15_6-1920x1080-Mobile-Workstation-90-4.jpg?v=1654715542",
+      "condition": "Excellent",
+      "original_price": 2500,
+      "resale_price": 1700,
+      "buying_year": 2016,
+      "description": "Selling this laptop as I no longer require the high performance for my work.",
+      "seller": {
+        "name": "Emily Wilson",
+        "phone": "999-888-7777",
+        "email": "emily@gmail.com",
+        "address": "789 Maple Drive",
+        "image": "https://www.themoviedb.org/t/p/w500/r1ZppIE70O1ulukKSCoVaZaxWOW.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "32GB",
+        "Storage": "1TB SSD",
+        "Display": "15.6-inch 4K Ultra HD",
+        "Graphics": "NVIDIA Quadro M2000M"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd343",
+      "BrandName": "HP",
+      "model": "HP Spectre x360",
+      "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08279287.png",
+      "condition": "Excellent",
+      "original_price": 1800,
+      "resale_price": 1400,
+      "buying_year": 2019,
+      "description": "Selling this laptop as I upgraded to a more powerful workstation.",
+      "seller": {
+        "name": "John Doe",
+        "phone": "123-456-7890",
+        "email": "john@gmail.com",
+        "address": "123 Main Street",
+        "image": "https://westernfinance.org/wp-content/uploads/speaker-3-v2.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "13.3-inch 4K Ultra HD",
+        "Graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd343",
+      "BrandName": "HP",
+      "model": "HP Pavilion 15",
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/hp-pavilion-15-eh1890au-amd-ryzen-5-5500u-156-11649747512.webp",
+      "condition": "Good",
+      "original_price": 800,
+      "resale_price": 550,
+      "buying_year": 2020,
+      "description": "Selling this laptop as I received a new one as a gift.",
+      "seller": {
+        "name": "Jane Smith",
+        "phone": "987-654-3210",
+        "email": "jane@gmail.com",
+        "address": "456 Elm Street",
+        "image": "https://assets.mycast.io/characters/jane-smith-6498555-normal.jpg?1651316767"
+      },
+      "specification": {
+        "Processor": "Intel Core i5",
+        "RAM": "8GB",
+        "Storage": "256GB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "NVIDIA GeForce GTX 1650"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd343",
+      "BrandName": "HP",
+      "model": "HP EliteBook x360",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/10/QP/ZA/GT/4633407/used-hp-elitebook-x360-1030-g2-laptop-500x500.jpeg",
+      "condition": "Good",
+      "original_price": 1200,
+      "resale_price": 900,
+      "buying_year": 2020,
+      "description": "Selling this laptop as I no longer need it for my business.",
+      "seller": {
+        "name": "Alex Johnson",
+        "phone": "555-123-4567",
+        "email": "alex@gmail.com",
+        "address": "789 Oak Avenue",
+        "image": "https://adivinesport.files.wordpress.com/2022/10/alex_johnson-headshot.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "13.3-inch Full HD",
+        "Graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd343",
+      "BrandName": "HP",
+      "model": "HP Envy x360",
+      "image": "https://media.karousell.com/media/photos/products/2020/8/17/used_hp_envy_x360_laptop__tabl_1597682739_2956f784_progressive",
+      "condition": "Excellent",
+      "original_price": 1400,
+      "resale_price": 1000,
+      "buying_year": 2018,
+      "description": "Selling this laptop as I upgraded to a gaming laptop.",
+      "seller": {
+        "name": "Sarah Brown",
+        "phone": "444-567-8901",
+        "email": "sarah@gmail.com",
+        "address": "321 Pine Street",
+        "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2012/01/03/09/sarah-brown-415.jpg?width=968&auto=webp&quality=50&crop=968%3a645%2csmart"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "1TB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "NVIDIA GeForce MX330"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd343",
+      "BrandName": "HP",
+      "model": "HP ProBook 450",
+      "image": "https://static.clickbd.com/global/classified/item_img/2779515_0_original.jpg",
+      "condition": "Good",
+      "original_price": 1000,
+      "resale_price": 700,
+      "buying_year": 2017,
+      "description": "Selling this laptop to upgrade to a newer model.",
+      "seller": {
+        "name": "Mike Thompson",
+        "phone": "222-333-4444",
+        "email": "mike@gmail.com",
+        "address": "567 Cedar Lane",
+        "image": "https://media.licdn.com/dms/image/D4E03AQHAMIBsNHJSBA/profile-displayphoto-shrink_800_800/0/1672964389091?e=2147483647&v=beta&t=6Td8TynlmU9lmOdQputGBH3MytdadRsrV1VSRLdhCZ4"
+      },
+      "specification": {
+        "Processor": "Intel Core i5",
+        "RAM": "8GB",
+        "Storage": "256GB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "Intel UHD Graphics 620"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd343",
+      "BrandName": "HP",
+      "model": "HP ZBook Studio",
+      "image": "https://systemactive.co.uk/pub/media/catalog/product/cache/de0d306b9cad3a8633e9b25007319616/3/1/314f7ea_main.png",
+      "condition": "Excellent",
+      "original_price": 2500,
+      "resale_price": 1700,
+      "buying_year": 2016,
+      "description": "Selling this laptop as I no longer require the high performance for my work.",
+      "seller": {
+        "name": "Emily Wilson",
+        "phone": "999-888-7777",
+        "email": "emily@gmail.com",
+        "address": "789 Maple Drive",
+        "image": "https://www.themoviedb.org/t/p/w500/r1ZppIE70O1ulukKSCoVaZaxWOW.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "32GB",
+        "Storage": "1TB SSD",
+        "Display": "15.6-inch 4K Ultra HD",
+        "Graphics": "NVIDIA Quadro M1000M"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd346",
+      "BrandName": "Acer",
+      "model": "Acer Swift 3",
+      "image": "https://i.rtings.com/assets/products/ybCEUu1I/acer-swift-3-14-2020/design-medium.jpg",
+      "condition": "Excellent",
+      "original_price": 1200,
+      "resale_price": 900,
+      "buying_year": 2019,
+      "description": "Selling this laptop as I upgraded to a more powerful workstation.",
+      "seller": {
+        "name": "John Doe",
+        "phone": "123-456-7890",
+        "email": "john@gmail.com",
+        "address": "123 Main Street",
+        "image": "https://westernfinance.org/wp-content/uploads/speaker-3-v2.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "14-inch Full HD",
+        "Graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd346",
+      "BrandName": "Acer",
+      "model": "Acer Predator Helios 300",
+      "image": "https://classyprice.com.bd/images/Acer-Predator-Helios-300-PH.jpg",
+      "condition": "Good",
+      "original_price": 1500,
+      "resale_price": 1000,
+      "buying_year": 2020,
+      "description": "Selling this laptop as I received a new one as a gift.",
+      "seller": {
+        "name": "Jane Smith",
+        "phone": "987-654-3210",
+        "email": "jane@gmail.com",
+        "address": "456 Elm Street",
+        "image": "https://assets.mycast.io/characters/jane-smith-6498555-normal.jpg?1651316767"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "NVIDIA GeForce RTX 3060"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd346",
+      "BrandName": "Acer",
+      "model": "Acer Aspire 5",
+      "image": "https://images.acer.com/is/image/acer/acer-aspire-5-a515-58m-a515-58mt-s50-55-with-fingerprint-with-backlit-on-wallpaper-win11-steel-gray-01-3?$Product-Cards-XL$",
+      "condition": "Fresh",
+      "original_price": 800,
+      "resale_price": 600,
+      "buying_year": 2021,
+      "description": "Selling this laptop as I no longer need it for my studies.",
+      "seller": {
+        "name": "Alex Johnson",
+        "phone": "555-123-4567",
+        "email": "alex@gmail.com",
+        "address": "789 Oak Avenue",
+        "image": "https://adivinesport.files.wordpress.com/2022/10/alex_johnson-headshot.jpg"
+      },
+      "specification": {
+        "Processor": "AMD Ryzen 5",
+        "RAM": "8GB",
+        "Storage": "256GB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "AMD Radeon Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd346",
+      "BrandName": "Acer",
+      "model": "Acer Nitro 5",
+      "image": "https://techbd.com.bd/wp-content/uploads/2021/04/nitro-5-gaming-laptop-an515-55-3-500x500-1.jpg",
+      "condition": "Good",
+      "original_price": 1000,
+      "resale_price": 700,
+      "buying_year": 2018,
+      "description": "Selling this laptop as I upgraded to a gaming laptop.",
+      "seller": {
+        "name": "SarahBrown",
+        "phone": "444-567-8901",
+        "email": "sarah@gmail.com",
+        "address": "321 Pine Street",
+        "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2012/01/03/09/sarah-brown-415.jpg?width=968&auto=webp&quality=50&crop=968%3a645%2csmart"
+      },
+      "specification": {
+        "Processor": "Intel Core i5",
+        "RAM": "8GB",
+        "Storage": "512GB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "NVIDIA GeForce GTX 1650"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd346",
+      "BrandName": "Acer",
+      "model": "Acer Swift 5",
+      "image": "https://www.pcworld.com/wp-content/uploads/2023/04/acerswift5hero-100869086-orig.jpg?quality=50&strip=all&w=1024",
+      "condition": "Excellent",
+      "original_price": 1400,
+      "resale_price": 1000,
+      "buying_year": 2017,
+      "description": "Selling this laptop to upgrade to a newer model.",
+      "seller": {
+        "name": "Mike Thompson",
+        "phone": "222-333-4444",
+        "email": "mike@gmail.com",
+        "address": "567 Cedar Lane",
+        "image": "https://media.licdn.com/dms/image/D4E03AQHAMIBsNHJSBA/profile-displayphoto-shrink_800_800/0/1672964389091?e=2147483647&v=beta&t=6Td8TynlmU9lmOdQputGBH3MytdadRsrV1VSRLdhCZ4"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "1TB SSD",
+        "Display": "14-inch Full HD",
+        "Graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd346",
+      "BrandName": "Acer",
+      "model": "Acer Predator Triton 500",
+      "image": "https://www.digitweek.com/wp-content/uploads/2022/08/Acer-Predator-Triton-500-SE-Review.jpg",
+      "condition": "Good",
+      "original_price": 2500,
+      "resale_price": 1800,
+      "buying_year": 2016,
+      "description": "Selling this laptop as I no longer require the high performance for my work.",
+      "seller": {
+        "name": "Emily Wilson",
+        "phone": "999-888-7777",
+        "email": "emily@gmail.com",
+        "address": "789 Maple Drive",
+        "image": "https://www.themoviedb.org/t/p/w500/r1ZppIE70O1ulukKSCoVaZaxWOW.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "32GB",
+        "Storage": "1TB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "NVIDIA GeForce RTX 3080"
+      }
+    },
+    {
+        
+      "catagory_Id":"646da86c90217363302bd344",
+      "BrandName": "Lenovo",
+      "model": "Lenovo ThinkPad X1 Carbon",
+      "image": "https://www.lenovo.com/medias/lenovo-laptops-thinkpad-x1-carbon-gen-10-hero.png?context=bWFzdGVyfHJvb3R8NDk2OTY3fGltYWdlL3BuZ3xoZWQvaDdiLzEzMTM1OTk1NTY4MTU4LnBuZ3xmNGQzMmI4ZTA3M2UyN2YxYjdkMTk2YTk3NmVlNDYyOWFmZGIzYjk4ZjMyNzRmZTQ5ZjE4YTI0YmJmYTI2YTFj",
+      "condition": "Excellent",
+      "original_price": 2000,
+      "resale_price": 1500,
+      "buying_year": 2019,
+      "description": "Selling this laptop as I upgraded to a more powerful workstation.",
+      "seller": {
+        "name": "John Doe",
+        "phone": "123-456-7890",
+        "email": "john@gmail.com",
+        "address": "123 Main Street",
+        "image": "https://westernfinance.org/wp-content/uploads/speaker-3-v2.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "14-inch Full HD",
+        "Graphics": "Intel UHD Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd344",
+      "BrandName": "Lenovo",
+      "model": "Lenovo IdeaPad Flex 5",
+      "image": "https://www.lenovo.com/medias/lenovo-laptop-ideapad-flex-5-14inch-amd-gallery-2.jpg?context=bWFzdGVyfHJvb3R8MTU2NzM2fGltYWdlL2pwZ3xoNjUvaGEyLzEwNzk1MDc4Mjg3MzkwLmpwZ3w2NzdmZjVhZDEzMTFmZjhlZTM1ZjE0YTZhNGFmMzg4ZDI1OGY1NTIxZmRiYzgyYTJmNWNiMGViMGM4ODFkOWYy",
+      "condition": "Good",
+      "original_price": 800,
+      "resale_price": 600,
+      "buying_year": 2020,
+      "description": "Selling this laptop as I received a new one as a gift.",
+      "seller": {
+        "name": "Jane Smith",
+        "phone": "987-654-3210",
+        "email": "jane@gmail.com",
+        "address": "456 Elm Street",
+        "image": "https://assets.mycast.io/characters/jane-smith-6498555-normal.jpg?1651316767"
+      },
+      "specification": {
+        "Processor": "AMD Ryzen 5",
+        "RAM": "8GB",
+        "Storage": "256GB SSD",
+        "Display": "14-inch Full HD",
+        "Graphics": "AMD Radeon Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd344",
+      "BrandName": "Lenovo",
+      "model": "Lenovo ThinkPad T14",
+      "image": "https://classyprice.com.bd/images/Lenovo-ThinkPad-T14-Gen-3-A.webp",
+      "condition": "Fresh",
+      "original_price": 1200,
+      "resale_price": 900,
+      "buying_year": 2021,
+      "description": "Selling this laptop as I no longer need it for my studies.",
+      "seller": {
+        "name": "Alex Johnson",
+        "phone": "555-123-4567",
+        "email": "alex@gmail.com",
+        "address": "789 Oak Avenue",
+        "image": "https://adivinesport.files.wordpress.com/2022/10/alex_johnson-headshot.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "14-inch Full HD",
+        "Graphics": "Intel UHD Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd344",
+      "BrandName": "Lenovo",
+      "model": "Lenovo Legion 5",
+      "image": "https://azse77seaprodsa.blob.core.windows.net/b2b-dr-pickaboocdn/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/l/e/legion-5-15ith6h.jpg",
+      "condition": "Good",
+      "original_price": 1000,
+      "resale_price": 800,
+      "buying_year": 2018,
+      "description": "Selling this laptop as I upgraded to a gaming laptop.",
+      "seller": {
+        "name": "Sarah Brown",
+        "phone": "444-567-8901",
+        "email": "sarah@gmail.com",
+        "address": "321 Pine Street",
+        "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2012/01/03/09/sarah-brown-415.jpg?width=968&auto=webp&quality=50&crop=968%3a645%2csmart"
+      },
+      "specification": {
+        "Processor": "AMD Ryzen 7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "NVIDIA GeForce GTX 1660 Ti"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd344",
+      "BrandName": "Lenovo",
+      "model": "Lenovo Yoga C940",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyJievnkGQlMIsp6X0VFurjgYh4uxAtfNlcg&usqp=CAU",
+      "condition": "Excellent",
+      "original_price": 1500,
+      "resale_price": 1200,
+      "buying_year": 2017,
+      "description": "Selling this laptop to upgrade to a newer model.",
+      "seller": {
+        "name": "Mike Thompson",
+        "phone": "222-333-4444",
+        "email": "mike@gmail.com",
+        "address": "567 Cedar Lane",
+        "image": "https://media.licdn.com/dms/image/D4E03AQHAMIBsNHJSBA/profile-displayphoto-shrink_800_800/0/1672964389091?e=2147483647&v=beta&t=6Td8TynlmU9lmOdQputGBH3MytdadRsrV1VSRLdhCZ4"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "1TB SSD",
+        "Display": "14-inch Full HD",
+        "Graphics": "Intel Iris Plus Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd344",
+      "BrandName": "Lenovo",
+      "model": "Lenovo ThinkPad P1",
+      "image": "https://www.lenovo.com/medias/wmd00000463.png?context=bWFzdGVyfHJvb3R8NDczODczfGltYWdlL3BuZ3xoZjIvaDViLzE0MTEwNjIwMjg3MDA2LnBuZ3xjNTkzZTBiNWIwOWE4MDllODhmNWVkMTYzYTA2NzYyMjNhNGE2NjYwMmQzZTA3ODViNTM2MjJhMTk0ZDQwMTA4",
+      "condition": "Good",
+      "original_price": 2500,
+      "resale_price": 1800,
+      "buying_year": 2016,
+      "description": "Selling this laptop as I no longer require the high performance for my work.",
+      "seller": {
+        "name": "Emily Wilson",
+        "phone": "999-888-7777",
+        "email": "emily@gmail.com",
+        "address": "789 Maple Drive",
+        "image": "https://www.themoviedb.org/t/p/w500/r1ZppIE70O1ulukKSCoVaZaxWOW.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i9",
+        "RAM": "32GB",
+        "Storage": "1TB SSD",
+        "Display": "15.6-inch 4K Ultra HD",
+        "Graphics": "NVIDIA Quadro T2000"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd345",
+      "BrandName": "ASUS",
+      "model": "ASUS ZenBook 14",
+      "image": "https://aroz.com.bd/wp-content/uploads/2022/06/zenbook-14-ux425ja-3-500x500-1.jpg",
+      "condition": "Excellent",
+      "original_price": 1500,
+      "resale_price": 1200,
+      "buying_year": 2019,
+      "description": "Selling this laptop as I upgraded to a more powerful workstation.",
+      "seller": {
+        "name": "John Doe",
+        "phone": "123-456-7890",
+        "email": "john@gmail.com",
+        "address": "123 Main Street",
+        "image": "https://westernfinance.org/wp-content/uploads/speaker-3-v2.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "14-inch Full HD",
+        "Graphics": "Intel UHD Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd345",
+      "BrandName": "ASUS",
+      "model": "ASUS ROG Zephyrus G14",
+      "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/rog-zephyrus-g14/rog-zephyrus-g14-01-500x500.webp",
+      "condition": "Good",
+      "original_price": 1800,
+      "resale_price": 1400,
+      "buying_year": 2020,
+      "description": "Selling this laptop as I received a new one as a gift.",
+      "seller": {
+        "name": "Jane Smith",
+        "phone": "987-654-3210",
+        "email": "jane@gmail.com",
+        "address": "456 Elm Street",
+        "image": "https://assets.mycast.io/characters/jane-smith-6498555-normal.jpg?1651316767"
+      },
+      "specification": {
+        "Processor": "AMD Ryzen 9",
+        "RAM": "16GB",
+        "Storage": "1TB SSD",
+        "Display": "14-inch Full HD",
+        "Graphics": "NVIDIA GeForce RTX 2060"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd345",
+      "BrandName": "ASUS",
+      "model": "ASUS VivoBook 15",
+      "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15/vivobook-15-04-500x500.jpg",
+      "condition": "Fresh",
+      "original_price": 900,
+      "resale_price": 700,
+      "buying_year": 2021,
+      "description": "Selling this laptop as I no longer need it for my studies.",
+      "seller": {
+        "name": "Alex Johnson",
+        "phone": "555-123-4567",
+        "email": "alex@gmail.com",
+        "address": "789 Oak Avenue",
+        "image": "https://adivinesport.files.wordpress.com/2022/10/alex_johnson-headshot.jpg"
+      },
+      "specification": {
+        "Processor": "AMD Ryzen 7",
+        "RAM": "8GB",
+        "Storage": "512GB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "AMD Radeon Graphics"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd345",
+      "BrandName": "ASUS",
+      "model": "ASUS TUF Gaming A15",
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/main/asus-tuf-gaming-a15-fa506icb-amd-ryzen-5-4600h-11656757953.webp",
+      "condition": "Good",
+      "original_price": 1200,
+      "resale_price": 900,
+      "buying_year": 2018,
+      "description": "Selling this laptop as I upgraded to a gaming laptop.",
+      "seller": {
+        "name": "Sarah Brown",
+        "phone": "444-567-8901",
+        "email": "sarah@gmail.com",
+        "address": "321 Pine Street",
+        "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2012/01/03/09/sarah-brown-415.jpg?width=968&auto=webp&quality=50&crop=968%3a645%2csmart"
+      },
+      "specification": {
+        "Processor": "AMD Ryzen 7",
+        "RAM": "16GB",
+        "Storage": "1TB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "NVIDIA GeForce GTX 1660 Ti"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd345",
+      "BrandName": "ASUS",
+      "model": "ASUS ZenBook Pro Duo",
+      "image": "https://www.zdnet.com/a/img/resize/72296ec8688584eb6d23a7ba63b1cd59f7880147/2021/12/07/aaaefb22-937a-43f0-afca-b8ae1488adb7/asus-zenbook-pro-duo-15-oled-ux582l-770x433.jpg?auto=webp&fit=crop&height=900&width=1200",
+      "condition": "Excellent",
+      "original_price": 2500,
+      "resale_price": 1800,
+      "buying_year": 2019,
+      "description": "Selling this laptop as I no longer require the high performance for my work.",
+      "seller": {
+        "name": "Mike Thompson",
+        "phone": "222-333-4444",
+        "email": "mike@gmail.com",
+        "address": "567 Cedar Lane",
+        "image": "https://media.licdn.com/dms/image/D4E03AQHAMIBsNHJSBA/profile-displayphoto-shrink_800_800/0/1672964389091?e=2147483647&v=beta&t=6Td8TynlmU9lmOdQputGBH3MytdadRsrV1VSRLdhCZ4"
+      },
+      "specification": {
+        "Processor": "Intel Core i9",
+        "RAM": "32GB",
+        "Storage": "1TB SSD",
+        "Display": "15.6-inch 4K Ultra HD",
+        "Graphics": "NVIDIA GeForce RTX 2060"
+      }
+    },
+    {
+      "catagory_Id":"646da86c90217363302bd345",
+      "BrandName": "ASUS",
+      "model": "ASUS ROG Strix Scar 15",
+      "image": "https://asusrog.com.bd/wp-content/uploads/2021/06/ASUS-ROG-Strix-Scar-15.jpg",
+      "condition": "Good",
+      "original_price": 3000,
+      "resale_price": 2200,
+      "buying_year": 2020,
+      "description": "Selling this laptop as I no longer need it for gaming.",
+      "seller": {
+        "name": "Emily Wilson",
+        "phone": "999-888-7777",
+        "email": "emily@gmail.com",
+        "address": "789 Maple Drive",
+        "image": "https://www.themoviedb.org/t/p/w500/r1ZppIE70O1ulukKSCoVaZaxWOW.jpg"
+      },
+      "specification": {
+        "Processor": "Intel Core i7",
+        "RAM": "32GB",
+        "Storage": "1TB SSD",
+        "Display": "15.6-inch Full HD",
+        "Graphics": "NVIDIA GeForce RTX 3080"
+      }
+    }
+  ]
