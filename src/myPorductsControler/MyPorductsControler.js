@@ -14,6 +14,7 @@ const myPorductsControler = async (req, res) => {
       res.send({
         success: false,
         message: "You don't have any product yet.",
+        products:[]
       });
     }
   } catch (error) {
