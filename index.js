@@ -28,6 +28,8 @@ const user = require("./src/routers/getUserRouter/getUserRouter");
 const verifyUser = require("./src/routers/verifyUserRouter/verifyUserRouter");
 // change role
 const changeRole = require("./src/routers/changeRoleRouter/changeRoleRouter");
+// get my all products
+const getMyAllProducts = require("./src/routers/MyProductsRouter/MyProductRouter");
 // about api
 const about = require("./src/routers/about/about");
 // post order
@@ -43,6 +45,7 @@ app.use(storeUser);
 app.use(user);
 app.use(verifyUser);
 app.use(changeRole);
+app.use(getMyAllProducts);
 app.use(order);
 
 app.listen(port, () => {
