@@ -1,7 +1,7 @@
 const { ObjectId } = require("mongodb");
 const { allProductsColection } = require("../../models/dataBase/DBConnect");
 
-const completeOrder = async (req, res) => {
+const completeOrderControler = async (req, res) => {
   try {
     const id = req.query.id;
     const query = { _id: new ObjectId(id) };
@@ -39,4 +39,4 @@ const completeOrder = async (req, res) => {
   }
 };
 
-module.exports = completeOrder;
+module.exports = completeOrderControler;
