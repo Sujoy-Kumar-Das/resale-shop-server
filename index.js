@@ -34,6 +34,8 @@ const getMyAllProducts = require("./src/routers/MyProductsRouter/MyProductRouter
 const completeOrder = require("./src/routers/completeOrderRouter/CompleteOrderRouter");
 // edit product
 const editProduct = require("./src/routers/editProductRouter/editProductRouter");
+// delete product
+const deleteProduct = require("./src/routers/deleteProductRouter/DeleteProductRouter");
 // about api
 const about = require("./src/routers/about/about");
 // post order
@@ -52,6 +54,7 @@ app.use(changeRole);
 app.use(getMyAllProducts);
 app.use(completeOrder);
 app.use(editProduct);
+app.use(deleteProduct);
 app.use(order);
 
 app.listen(port, () => {

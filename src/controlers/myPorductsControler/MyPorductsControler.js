@@ -1,4 +1,4 @@
-const { allProductsColection } = require("../models/dataBase/DBConnect");
+const { allProductsColection } = require("../../models/dataBase/DBConnect");
 
 const myPorductsControler = async (req, res) => {
   try {
@@ -14,7 +14,7 @@ const myPorductsControler = async (req, res) => {
       res.send({
         success: false,
         message: "You don't have any product yet.",
-        products:[]
+        products: [],
       });
     }
   } catch (error) {
