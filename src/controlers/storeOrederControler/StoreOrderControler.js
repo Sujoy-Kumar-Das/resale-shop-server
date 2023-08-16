@@ -9,7 +9,7 @@ const storeOrderControler = async (req, res) => {
     const order = req.body;
     const id = req.query.productId;
     const query = { _id: new ObjectId(id) };
-    const bookedQuery = { orderProductID: id };
+    const bookedQuery = { "orderedProduct._id": id };
     const isAvailable = await allProductsColection.findOne(query);
     const alreadyBooked = await ordersCollections.findOne(bookedQuery);
     if (!isAvailable) {
@@ -17,33 +17,33 @@ const storeOrderControler = async (req, res) => {
     }
     if (alreadyBooked) {
       return res.send({ success: false, message: "Product alreday booked." });
-    } else {
+    }
+
+    const storeOrder = await ordersCollections.insertOne(order);
+    if (storeOrder.acknowledged) {
       const options = { upsert: true };
       const updateDoc = {
         $set: {
           booked: true,
         },
       };
-      const updatedProduct = await allProductsColection.updateOne(
-        query,
+      const result = await ordersCollections.updateOne(
+        bookedQuery,
         updateDoc,
         options
       );
-      if (updatedProduct.acknowledged) {
-        const result = await ordersCollections.insertOne(order);
-        if (result.acknowledged) {
-          res.send({
-            success: true,
-            message:
-              "Your Order Placed Successfully.Please Pay For Confrimation.",
-          });
-        }
+      if (result.acknowledged) {
+        res.send({
+          success: true,
+          message:
+            "Your Order Placed Successfully.Please Pay For Confrimation.",
+        });
       }
     }
   } catch (error) {
     res.send({
       success: false,
-      message: "Error booking product",
+      message: "server error booking product",
     });
   }
 };

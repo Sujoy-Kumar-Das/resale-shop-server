@@ -39,7 +39,9 @@ const deleteProduct = require("./src/routers/deleteProductRouter/DeleteProductRo
 // about api
 const about = require("./src/routers/about/about");
 // post order
-const order = require("./src/routers/storeOrders/StoreOrder");
+const storeOrder = require("./src/routers/storeOrders/StoreOrder");
+// get orders
+const getMyOrders = require("./src/routers/myOrderRouter/MyOrderRouter");
 
 dbConnect();
 app.use(testRouter);
@@ -55,7 +57,8 @@ app.use(getMyAllProducts);
 app.use(completeOrder);
 app.use(editProduct);
 app.use(deleteProduct);
-app.use(order);
+app.use(storeOrder);
+app.use(getMyOrders);
 
 app.listen(port, () => {
   console.log("server is running");

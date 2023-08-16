@@ -1,19 +1,24 @@
 const { ObjectId } = require("mongodb");
-const { allProductsColection } = require("../../models/dataBase/DBConnect");
+const {
+  allProductsColection,
+  ordersCollections,
+} = require("../../models/dataBase/DBConnect");
 
 const editProductControler = async (req, res) => {
   try {
     const id = req.query.id;
     const body = req.body;
     const query = { _id: new ObjectId(id) };
+    const bookingQuery = { "orderedProduct._id": id };
     const product = await allProductsColection.findOne(query);
+    const alreaybooked = await ordersCollections.findOne(bookingQuery);
     if (!product) {
       return res.send({
         success: false,
         message: `${product.model} is not exists`,
       });
     }
-    if (product.booked) {
+    if (alreaybooked?.booked) {
       return res.send({
         success: false,
         message: `You can't edit ${product.model}.Because ${product.model} already has been booked. `,

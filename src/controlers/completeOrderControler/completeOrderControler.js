@@ -1,11 +1,11 @@
 const { ObjectId } = require("mongodb");
-const { allProductsColection } = require("../../models/dataBase/DBConnect");
+const { ordersCollections } = require("../../models/dataBase/DBConnect");
 
 const completeOrderControler = async (req, res) => {
   try {
     const id = req.query.id;
     const query = { _id: new ObjectId(id) };
-    const product = await allProductsColection.findOne(query);
+    const product = await ordersCollections.findOne(query);
     if (!product.completed) {
       const options = { upsert: true };
       const updatedDoc = {
@@ -13,7 +13,7 @@ const completeOrderControler = async (req, res) => {
           completed: true,
         },
       };
-      const result = await allProductsColection.updateOne(
+      const result = await ordersCollections.updateOne(
         query,
         updatedDoc,
         options
@@ -21,20 +21,20 @@ const completeOrderControler = async (req, res) => {
       if (result.acknowledged) {
         res.send({
           success: true,
-          message: `${product.model} will be shift successfully`,
+          message: `${product?.orderedProduct?.model} will be shift successfully`,
         });
       }
     } else {
       res.send({
         success: false,
-        message: `${product.model} already shifted`,
+        message: `${product?.orderedProduct?.model} already shifted`,
       });
     }
   } catch (error) {
     console.log(error);
     res.send({
       success: false,
-      message: "server error.",
+      message: "order complete server error.",
     });
   }
 };
