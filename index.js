@@ -42,8 +42,15 @@ const about = require("./src/routers/about/about");
 const storeOrder = require("./src/routers/storeOrders/StoreOrder");
 // get orders
 const getMyOrders = require("./src/routers/myOrderRouter/MyOrderRouter");
+// cancel order
+const cancelOrder = require("./src/routers/cancelOrderRouter/CancelOrderRouter");
+// payment method intent api
+const paymentMethodIntent = require("./src/routers/paymentStripeRouter/PaymentStripeRouter");
+// store payment info
+const storePaymentInfo = require("./src/routers/storePaymentInfoRouter/storePaymentInfoRouter");
 
 dbConnect();
+
 app.use(testRouter);
 app.use(getProductCatagory);
 app.use(getAllProducts);
@@ -59,7 +66,9 @@ app.use(editProduct);
 app.use(deleteProduct);
 app.use(storeOrder);
 app.use(getMyOrders);
-
+app.use(cancelOrder);
+app.use(paymentMethodIntent);
+app.use(storePaymentInfo);
 app.listen(port, () => {
   console.log("server is running");
 });

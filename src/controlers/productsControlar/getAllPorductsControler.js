@@ -28,7 +28,7 @@ const getAllProductsControler = async (req, res) => {
     } else {
       res.send({
         success: false,
-        message: `Currently we don't have ${productCatagory.title} laptop`,
+        message: `Currently we don't have ${productCatagory?.title} laptop`,
         products: [],
       });
     }
