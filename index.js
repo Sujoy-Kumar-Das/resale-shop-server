@@ -24,6 +24,10 @@ const productDetail = require("./src/routers/productsRoute/productDetail");
 const storeUser = require("./src/routers/storeUser/StoreUser");
 // get user
 const user = require("./src/routers/getUserRouter/getUserRouter");
+// notify user
+const notifyUser = require("./src/routers/notifyUserRouter/notifyUserRouter");
+// get all users
+const getAllUsers = require("./src/routers/allUsers/allUsers");
 // verify user
 const verifyUser = require("./src/routers/verifyUserRouter/verifyUserRouter");
 // change role
@@ -58,6 +62,8 @@ app.use(productDetail);
 app.use(about);
 app.use(storeUser);
 app.use(user);
+app.use(getAllUsers);
+app.use(notifyUser);
 app.use(verifyUser);
 app.use(changeRole);
 app.use(getMyAllProducts);
