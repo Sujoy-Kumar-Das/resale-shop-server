@@ -11,7 +11,8 @@ const verifyControler = async (req, res) => {
       },
     };
     const user = await usersCollectons.findOne(query);
-    if (!user?.verified) {
+    // console.log(user.verified === true)
+    if (user?.verified !== true) {
       const result = await usersCollectons.updateOne(query, updateDoc, options);
       if (result.acknowledged) {
         res.send({

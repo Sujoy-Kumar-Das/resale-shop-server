@@ -14,7 +14,7 @@ const storePaymentControler = async (req, res) => {
       const options = { upsert: true };
       const updatedDoc = {
         $set: {
-          payment: true,
+          payment: "paid",
         },
       };
       const result = await ordersCollections.updateOne(

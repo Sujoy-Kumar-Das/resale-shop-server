@@ -20,6 +20,8 @@ const getProductCatagory = require("./src/routers/productsRoute/getProductCatago
 const getAllProducts = require("./src/routers/productsRoute/allProducts");
 // get single product detail
 const productDetail = require("./src/routers/productsRoute/productDetail");
+// upload product
+const uploadProduct = require("./src/routers/uploadProductRouter/uploadProductRouter");
 // store user
 const storeUser = require("./src/routers/storeUser/StoreUser");
 // get user
@@ -29,7 +31,13 @@ const notifyUser = require("./src/routers/notifyUserRouter/notifyUserRouter");
 // get all users
 const getAllUsers = require("./src/routers/allUsers/allUsers");
 // verify user
-const verifyUser = require("./src/routers/verifyUserRouter/verifyUserRouter");
+const verificationRequest = require("./src/routers/verificationRequestRouter/verificationRequestRouter");
+//accept verification router
+const acceptVerification = require("./src/routers/acceptVerificationRouter/acceptVerificationRouter");
+// declien verification
+const declieVerification = require("./src/routers/declineVerificationRouter/declineVerificaionRouter");
+// retract Verification Router
+const retractVerification = require("./src/routers/retractVerificationRouter/retractVerificationRouter");
 // change role
 const changeRole = require("./src/routers/changeRoleRouter/changeRoleRouter");
 // get my all products
@@ -52,19 +60,30 @@ const cancelOrder = require("./src/routers/cancelOrderRouter/CancelOrderRouter")
 const paymentMethodIntent = require("./src/routers/paymentStripeRouter/PaymentStripeRouter");
 // store payment info
 const storePaymentInfo = require("./src/routers/storePaymentInfoRouter/storePaymentInfoRouter");
-
+// clear notification api
+const clearNotification = require("./src/routers/clearNotificationRouter/clearNotificationRouter");
+// is admin api
+const isAdmin = require("./src/routers/useAdminRouter/useAdminRouter");
+// is buyer check
+const isSeller = require("./src/routers/isSellerRouter/isSeller");
+// jwt token get
+const getJwtToken = require("./src/routers/jwt/jwt");
 dbConnect();
 
 app.use(testRouter);
 app.use(getProductCatagory);
 app.use(getAllProducts);
 app.use(productDetail);
+app.use(uploadProduct);
 app.use(about);
 app.use(storeUser);
 app.use(user);
 app.use(getAllUsers);
 app.use(notifyUser);
-app.use(verifyUser);
+app.use(verificationRequest);
+app.use(acceptVerification);
+app.use(declieVerification);
+app.use(retractVerification);
 app.use(changeRole);
 app.use(getMyAllProducts);
 app.use(completeOrder);
@@ -75,6 +94,10 @@ app.use(getMyOrders);
 app.use(cancelOrder);
 app.use(paymentMethodIntent);
 app.use(storePaymentInfo);
+app.use(clearNotification);
+app.use(isAdmin);
+app.use(isSeller);
+app.use(getJwtToken);
 app.listen(port, () => {
   console.log("server is running");
 });

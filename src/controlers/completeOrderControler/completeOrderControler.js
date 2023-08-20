@@ -11,6 +11,7 @@ const completeOrderControler = async (req, res) => {
       const updatedDoc = {
         $set: {
           completed: true,
+          payment:true
         },
       };
       const result = await ordersCollections.updateOne(
