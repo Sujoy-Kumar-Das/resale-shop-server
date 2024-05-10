@@ -9,7 +9,28 @@
 #### Backend : Express | Mongo | Jwt | Firebase | Stripe
 
 ### Features
-- Implemented CRUD opearation for porducts.
-- User can purches prodcuts with stripe.
-- USer can cancel therir order
-- Secured api with jwt
+- Implemented CRUD operations for products.
+- Users can purchase products with stripes.
+- User can cancel their order.
+- Secured API with JWT.
+
+
+## How to use?
+
+- Clone Project
+  ```
+  https://github.com/Sujoy-Kumar-Das/resale-shop-server/
+  ```
+- Install required npm packages
+
+```
+npm i
+
+```
+
+- Start Project locally
+
+```
+nodemon index.js
+
+```
